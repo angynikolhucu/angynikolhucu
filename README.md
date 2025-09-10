@@ -3,7 +3,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:F472B6,100:60A5FA&height=200&section=header&text=¡Bienvenid@%20a%20mi%20Perfil!&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=32" />
 </div>
 
-# Soy Angy Nikol Huarcaya Culqui  
+<div align="center">
+
+<h1 style="background: linear-gradient(90deg, #8B5CF6, #F472B6, #60A5FA); -webkit-background-clip: text; color: transparent; font-size: 2.5em;">Soy Angy Nikol Huarcaya Culqui
+</h1>
+
+</div>
+
 
 <div align="center">
   <!-- Texto animado con tus roles -->
