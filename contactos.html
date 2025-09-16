@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sección de Contacto</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <h1>PORTAFOLIO HUCU</h1>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="proyectos.html" class="nav-link">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="habilidades.html" class="nav-link">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="actividades.html" class="nav-link">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactos.html" class="nav-link">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="administrador.html" class="nav-link">Administrador</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2 class="contact-title">Contacto</h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <a
+                href="mailto:angynikolhucu@gmail.com"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Email</h3>
+                  <p>angynikolhucu@gmail.com</p>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/angy-nikoll-huarcaya-culqui-198503291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>LinkedIn</h3>
+                  <p>Angy Nikoll Huarcaya Culqui</p>
+                </div>
+              </a>
+
+              <a
+                href="https://youtube.com/@nubecitaembotellada?si=L3FHEu6cqi6Wy9eg"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-youtube"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>YouTube</h3>
+                  <p>@nubecitaembotellada</p>
+                </div>
+              </a>
+
+              <a
+                href="https://www.facebook.com/share/16kAipgH5J/"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Facebook</h3>
+                  <p>Angy Nikol Huarcaya Culqui</p>
+                </div>
+              </a>
+
+              <a
+                href="https://pin.it/2a7xzj9G6"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-pinterest"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Pinterest</h3>
+                  <p>@angynikol</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="contact-form-container">
+              <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" id="name" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Asunto</label>
+                  <input type="text" id="subject" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea
+                    id="message"
+                    class="form-input form-textarea"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2023 Angy Nikol Huarcaya Culqui. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
