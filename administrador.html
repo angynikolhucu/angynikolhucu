@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador - Mi Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <h1>PORTAFOLIO HUCU</h1>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="proyectos.html" class="nav-link">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="habilidades.html" class="nav-link">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="actividades.html" class="nav-link">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactos.html" class="nav-link">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="administrador.html" class="nav-link">Administrador</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section id="login-section" class="login-section">
+            <div class="login-container">
+                <h2 class="neon-text">Iniciar Sesión</h2>
+                <form id="login-form" class="login-form">
+                    <div class="form-group">
+                        <label for="username">Usuario</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn-neon">Ingresar</button>
+                </form>
+                <div id="login-message" class="message"></div>
+            </div>
+        </section>
+
+        <section id="admin-panel" class="admin-panel hidden">
+            <div class="admin-header">
+                <h2 class="neon-text">Panel de Administración</h2>
+                <button id="logout-btn" class="btn-neon">Cerrar Sesión</button>
+            </div>
+
+<div class="add-activity">
+    <h3>Agregar Nueva Actividad</h3>
+    <form id="activity-form" class="activity-form">
+        <div class="form-group">
+            <label for="activity-name">Nombre de la Actividad</label>
+            <input type="text" id="activity-name" name="activity-name" required>
+        </div>
+        <div class="form-group">
+            <label for="activity-file">Seleccionar Archivo PDF</label>
+            <select id="activity-file-select" name="activity-file" required>
+                <option value="">Cargando archivos...</option>
+            </select>
+        </div>
+        <button type="submit" class="btn-neon">Guardar Actividad</button>
+    </form>
+</div>
+                <div class="activities-list">
+                    <h3>Actividades Existentes</h3>
+                    <div id="admin-activities-list">
+                        <!-- Las actividades se cargarán dinámicamente con JavaScript -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
