@@ -100,10 +100,14 @@ body {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 10%;
+    justify-content: center; /* Cambia a "center" para centrar los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+ /* Mantén el padding para que no se pegue a los bordes */
     position: relative;
+    max-width: 1500px; /* Define un ancho máximo para el contenido */
+    margin: 0 auto; /* ¡Esta es la clave para centrarlo! */
 }
+
 
 .hero-content {
     flex: 1;
@@ -1077,4 +1081,5 @@ footer {
         height: 45px;
         font-size: 1.2rem;
     }
+
 }
