@@ -16,8 +16,8 @@
     },
     {
         "file": "actividad3.pdf",
-        "title": "Actividad Semana 03",
-        "description": "Sistema de evaluación de proyectos de investigación profesional"
+        "title": "Actividad Semana 03 Diseño",
+        "description": "Diseño del sistema de evaluación profesional"
     },
     {
         "file": "actividad4.pdf",
@@ -45,6 +45,7 @@
         "description": "Sistema de evaluación de proyectos de investigación profesional-Diseño arquitectónico MVC"
     }
 ]
+
 
 
 
