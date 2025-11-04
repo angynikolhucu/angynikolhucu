@@ -23,7 +23,28 @@
         "file": "actividad4.pdf",
         "title": "Actividad Semana 03",
         "description": "Sistema de evaluación de proyectos de investigación profesional"
+    },
+    {
+        "file": "semana4.pdf",
+        "title": "Actividad Semana 04",
+        "description": "Sistema de evaluación de proyectos de investigación profesional-Definición de los requerimientos"
+    },
+    {
+        "file": "semana5.pdf",
+        "title": "Actividad Semana 05",
+        "description": "Sistema de evaluación de proyectos de investigación profesional-Modelado del sistema"
+    },
+    {
+        "file": "semana6.pdf",
+        "title": "Actividad Semana 06",
+        "description": "Sistema de evaluación de proyectos de investigación profesional-Modelado del sistema UML-Lenguaje Unificado del modelado"
+    },
+    {
+        "file": "semana7.pdf",
+        "title": "Actividad Semana 07",
+        "description": "Sistema de evaluación de proyectos de investigación profesional-Diseño arquitectónico MVC"
     }
 ]
+
 
 
