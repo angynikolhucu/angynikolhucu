@@ -43,8 +43,14 @@
         "file": "semana7.pdf",
         "title": "Actividad Semana 07",
         "description": "Sistema de evaluación de proyectos de investigación profesional-Diseño arquitectónico MVC"
+    },
+    {
+        "file": "manual.pdf",
+        "title": "Actividad Final",
+        "description": "Manual de sistema de evaluación de proyectos de investigación profesional"
     }
 ]
+
 
 
 
