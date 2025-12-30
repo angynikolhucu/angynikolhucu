@@ -1,10 +1,5 @@
 [
     {
-        "file": "manual.pdf",
-        "title": "Actividad Final",
-        "description": "Manual de sistema de evaluación de proyectos de investigación profesional"
-    },
-    {
         "file": "actividad1.pdf",
         "title": "Actividad Semana 01",
         "description": "Fundamentos de proyecto web"
@@ -55,6 +50,7 @@
         "description": "Manual de sistema de evaluación de proyectos de investigación profesional"
     }
 ]
+
 
 
 
