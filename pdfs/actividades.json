@@ -45,11 +45,17 @@
         "description": "Sistema de evaluación de proyectos de investigación profesional-Diseño arquitectónico MVC"
     },
     {
+        "file": "semana8.pdf",
+        "title": "Actividad Semana 08",
+        "description": "Base de datos de sistema de evaluación de proyectos de investigación profesional"
+    },
+    {
         "file": "manual.pdf",
         "title": "Actividad Final",
         "description": "Manual de sistema de evaluación de proyectos de investigación profesional"
     }
 ]
+
 
 
 
